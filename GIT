@@ -1,0 +1,26 @@
+git config --global user.name "Fco. javier García Aróstegui"
+git config --global user.email "javier@iesxastelar.com"
+
+git init
+git add .
+git commit -m "Primer commit: agregando README"
+
+
+echo "# aprende-python-clase" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/profjavier/aprende-python-clase-v2.git
+git push -u origin main
+
+git remote add origin https://github.com/profjavier/aprende-python-clase.git
+git branch -M main
+git push -u origin main
+
+
+-----
+Para comprobar el remote origin
+git remote -v
+Para borrarlo
+git remote remove origin

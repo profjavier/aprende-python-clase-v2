@@ -1,0 +1,10 @@
+# Ejercicio 5. Escribe un programa que muestre tu horario de clase. Puedes usar espacios o tabuladores para alinear el texto.
+print("                  Lunes      Martes   Miércoles  Jueves   viernes ")
+print("------------------------------------------------------------------")
+print("15:30 - 16:25  |          |          |          |        |        |")
+print("16:25 - 17:20  |          |          |          |        |        |")
+print("17:20 - 18:15  |          |          |          |        |        |")
+print("18:15 - 18:45  |       - - - -   R  E  C  R  E  O  - - - -        |")
+print("18:45 - 19:40  |   ESP    |    ECP   |   ADP    | POO    |        |")
+print("19:40 - 20:35  |   ESP    |    ECP   |   ADP    | POO    |        |")
+print("20:35 - 21:30  |   ESP    |    ECP   |   ADP    | POO    |        |")

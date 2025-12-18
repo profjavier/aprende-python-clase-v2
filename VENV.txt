@@ -1,0 +1,31 @@
+
+python -m venv .venv
+
+.\.venv\Scripts\activate
+.\.venv\Scripts\desactivate
+
+Ej. pip show requests
+pip list
+
+pip freeze > requirements.txt
+cat requirements.txt
+pip install -r requirements.txt
+
+
+para ver las versiones python instaladas en el ordenador
+py -0
+
+para instalar/cambiar a la última version:
+Desgargar e instalarla
+Desactivamos el venv
+activarla
+.\.venv\Scripts\deactivate
+
+Eliminar el venv
+
+crear el entorno con la version
+py -3.14 -m venv .venv
+
+activarla
+.\.venv\Scripts\activate
+

@@ -1,0 +1,26 @@
+# Calificaciones
+# Diseñe un programa que pregunte el nombre de la persona y los nombres y notas
+# de 5 asignaturas y finalmente muestre una ficha resumen de estos datos y la media.
+
+print("="*40)
+nombre = input("Nombre: ")
+materia1 = input("Materia: ")
+nota_materia1 = int(input("\tNota: "))
+materia2 = input("Materia: ")
+nota_materia2 = int(input("\tNota: "))
+materia3 = input("Materia: ")
+nota_materia3 = int(input("\tNota: "))
+materia4 = input("Materia: ")
+nota_materia4 = int(input("\tNota: "))
+materia5 = input("Materia: ")
+nota_materia5 = int(input("\tNota: "))
+print("="*40)
+print("\n\n")
+print("="*15,"FICHA DE CALIFICACIONES","="*15)
+print("Nombre:",nombre)
+print("\t",materia1,":",nota_materia1)
+print("\t",materia2,":",nota_materia2)
+print("\t",materia3,":",nota_materia3)
+print("\t",materia4,":",nota_materia4)
+print("\t",materia5,":",nota_materia5)
+print("="*50)
