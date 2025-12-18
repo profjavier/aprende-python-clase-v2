@@ -1,8 +1,8 @@
 import socket
+from codigos_ansi import CodigosAnsi as ca
 
 HOST = '127.0.0.1'
 # HOST = '192.168.60.78'
-PORT = 65432
 PORT = 65432
 ''' 
     socket.AF_INET  cindica IPv4 
@@ -20,11 +20,11 @@ print("Conectado con:", addr)
 
 while True:
     mensaje = conn.recv(1024).decode()
-    print("Cliente:", mensaje)
+    print(ca.TEXT_ROJO, f"{mensaje:>80}",ca.RESET, sep="")
 
     if mensaje.lower() == "salir":
         print("Cliente se desconectó.")
         break
 
-    respuesta = input("Servidor: ")
+    respuesta = input(": ")
     conn.send(respuesta.encode())

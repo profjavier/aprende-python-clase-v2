@@ -3,8 +3,8 @@ import socket
 entradas = []
 
 
-HOST = '127.0.0.1'
-HOST = '127.0.0.1'
+HOST = '127.0.0.1' # SI SOLO QUEREMOS ACEPTAR CONEXIONES LOCALHOSTS
+HOST = '192.168.60.78'
 PORT = 65432
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
