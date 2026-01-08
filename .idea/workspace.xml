@@ -28,12 +28,12 @@
     &quot;assignee&quot;: &quot;profjavier&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/profjavier/aprende-python-clase-v2.git",
-    "accountId": "df563f15-11f0-4e36-a036-fd961096aa7c"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/profjavier/aprende-python-clase-v2.git&quot;,
+    &quot;accountId&quot;: &quot;df563f15-11f0-4e36-a036-fd961096aa7c&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -42,57 +42,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.actividad_4.final.1.executor": "Debug",
-    "Python.ansi.executor": "Run",
-    "Python.cliente (1).executor": "Run",
-    "Python.cliente (2).executor": "Run",
-    "Python.cliente.executor": "Run",
-    "Python.codigos_ansi.executor": "Run",
-    "Python.ejemplo_3.1.1.executor": "Debug",
-    "Python.ejemplo_3.1.3.executor": "Debug",
-    "Python.ejemplo_3.2.2.executor": "Run",
-    "Python.ejemplo_3.2.3.executor": "Run",
-    "Python.ejemplo_3.3.1.executor": "Run",
-    "Python.ejemplo_3.3.1B.executor": "Run",
-    "Python.ejemplo_5.8.executor": "Run",
-    "Python.ejemplo_5.9.executor": "Run",
-    "Python.ejemplo_5.9B.executor": "Run",
-    "Python.ejemplo_5.9C.executor": "Run",
-    "Python.ejemplo_5.9C2 (1).executor": "Run",
-    "Python.ejemplo_5.9C3.executor": "Run",
-    "Python.ejemplo_5.9C4.executor": "Run",
-    "Python.ejercicio_1.executor": "Run",
-    "Python.ejercicio_2 (1).executor": "Run",
-    "Python.ejercicio_2.executor": "Run",
-    "Python.ejercicio_3.executor": "Run",
-    "Python.ejercicio_4 (1).executor": "Run",
-    "Python.ejercicio_4.executor": "Run",
-    "Python.ejercicio_5.executor": "Run",
-    "Python.ejercicio_7B (1).executor": "Run",
-    "Python.ejercicio_7B.executor": "Run",
-    "Python.ejercicio_7C (1).executor": "Run",
-    "Python.ejercicio_7C (2).executor": "Run",
-    "Python.ejercicio_7D (1).executor": "Run",
-    "Python.ejercicio_7D.executor": "Run",
-    "Python.servidor (1).executor": "Run",
-    "Python.servidor (2).executor": "Run",
-    "Python.servidor.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/javier/Desktop/CEPY/aprende-python-clase/ejemplos/chats/chat01b_simple",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.actividad_4.final.1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ansi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cliente (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.cliente (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.cliente.executor&quot;: &quot;Run&quot;,
+    &quot;Python.codigos_ansi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_3.1.1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ejemplo_3.1.3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ejemplo_3.2.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_3.2.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_3.3.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_3.3.1B.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_5.8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_5.9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_5.9B.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_5.9C.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_5.9C2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_5.9C3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_5.9C4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_4 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_7B (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_7B.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_7C (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_7C (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_7D (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_7D.executor&quot;: &quot;Run&quot;,
+    &quot;Python.servidor (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.servidor (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.servidor.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/javier/Desktop/CEPY/aprende-python-clase/ejemplos/chats/chat01b_simple&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\ejemplos\chats\chat01b_simple" />
@@ -261,7 +261,8 @@
       <workItem from="1765481742131" duration="18000" />
       <workItem from="1765820932665" duration="6904000" />
       <workItem from="1765907514339" duration="7246000" />
-      <workItem from="1766079223543" duration="5377000" />
+      <workItem from="1766079223543" duration="5608000" />
+      <workItem from="1767894798664" duration="2687000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios">
       <option name="closed" value="true" />
@@ -335,7 +336,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765916878826</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ejercicios">
+      <option name="closed" value="true" />
+      <created>1766086596078</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1766086596078</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Ejercicios">
+      <option name="closed" value="true" />
+      <created>1766086605992</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1766086605992</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,6 +398,11 @@
           <url>file://$PROJECT_DIR$/ejemplos/chats/chat02/cliente.py</url>
           <line>17</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ejemplos/chats/chat01b_simple/cliente.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
