@@ -33,17 +33,107 @@ def cargar_fichero()->list:
         print("Se ha producido un error al cargar el fichero: " + e)
     return entradas
 
-def guardar(entrada:str):
-    with open(FILENAME, "a", encoding="utf-8") as f:
-        f.write( entrada+"\n" )
+def guardar(entrada:str)->bool:
+    try:
+        guardado = True
+        with open(FILENAME, "a", encoding="utf-8") as f:
+            f.write( entrada+"\n" )
+    except Exception as e:
+        guardado = False
+    return guardado
+
 
 def listar(entradas)->None:
     for entrada  in entradas:
         print(entrada)
 
+# Muestra si existe la entrada y la posición en la que se encuentra
+def consulta(entradas:list, entrada:str):
+    if not entrada:
+        return
+
+    # Solución clasica basada en la posición
+    pos = 0
+    #while entradas[pos] != entrada and pos < len(entradas): # Error si no encontrado
+    while pos < len(entradas) and entradas[pos] != entrada:
+        pos += 1
+    if pos<len(entradas):
+        print("Entrada encontrada en la posición:", pos)
+    else:
+        print("Entrada no encontrada")
+
+    # Solución clasica basada en la variable encontrado
+    '''pos = 0
+    encontrado = False
+    while not encontrado and pos < len(entradas):
+        if entradas[pos] == entrada:
+            encontrado = True
+        pos += 1
+    if pos<len(entradas):
+        print("Entrada encontrada en la posición:", pos)
+    else:
+        print("Entrada no encontrada")'''
+
+    # Solución con uso de for y break
+    '''encontrado = False
+    for index, e in enumerate(entradas): # enumerate(entradas, start=1):
+        if e == entrada:
+            encontrado = True
+            break
+    if encontrado:
+        print(f"Entrada encontrada en la posición {index}")
+    else:
+        print("Entrada no encontrada")'''
+
+    # Opción que no indica la posición
+    '''if entrada in entradas:
+        print("Entrada encontrada")'''
+
+    # Opción que no indica la posición
+    '''if any(entrada == e for e in entradas):
+        print("Entrada encontrada")
+    else:
+        print("Entrada no encontrada")'''
+
+    # Buscamos la primera coincidencia y obtenemos su índice
+    '''pos = next((index for index, e in enumerate(entradas) if entrada == e), None)
+    if pos is not None:
+        print(f"Entrada encontrada en la posición {pos}")
+    else:
+        print("Entrada no encontrada")'''
+
+
 def valida_entrada(entrada):
     return entrada.isdigit() and len(entrada) == 5
 
+if __name__ == '__main__':
+    entradas = cargar_fichero()
+
+    opcion = ""
+    while opcion != 0:
+        opcion = menu()
+        match opcion:
+            case 1:
+                entrada = ""
+                while not valida_entrada(entrada):
+                    entrada = input("Nº entrada: ")
+                if guardar(entrada):
+                    print("Entrada guardada")
+                    # entradas = cargar_fichero()
+                    entradas.append(entrada)
+                else:
+                    print("Entrada no guardada")
+            case 2:
+                entrada = ""
+                while not valida_entrada(entrada):
+                    entrada = input("Nº entrada: ")
+                consulta(entradas, entrada)
+            case 3:
+                listar(entradas)
+
+
+# TESTS
+'''
 entradas = cargar_fichero()
 print(entradas)
 
@@ -56,3 +146,10 @@ entradas = cargar_fichero()
 print(entradas)
 
 listar(entradas)
+
+guardar("0001")
+guardar("0001")
+guardar("0001")
+entradas = cargar_fichero()
+consulta(entradas, '0001')
+'''
