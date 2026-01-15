@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7afe0ce3-76ff-448e-a4c0-f4646645dff7" name="Changes" comment="Ejercicios">
-      <change afterPath="$PROJECT_DIR$/ejemplos/UT-14/14.1.1/ejemplo01_pyqt6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejemplos/UT-14/14.2.1/ejemplo01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejemplos/UT-14/14.2.1/ejemplo02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.1/v1/vehiculo_coche.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.1/v2/vehiculo_coche.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.1/v3/coche.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.1/v3/vehiculo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.2/empleado.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.2/gerente.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividades/UT-06/actividad_6.12.2/ejercicio_6.12.2.1/ejercicio_6.12.2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/actividades/UT-06/actividad_6.12.2/ejercicio_6.12.2.1/ejercicio_6.12.2.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividades/UT-06/actividad_6.12.2/ejercicio_6.12.2.1/entradas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/actividades/UT-06/actividad_6.12.2/ejercicio_6.12.2.1/entradas.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejemplos/UT-14/14.2.1/ejemplo01.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejemplos/UT-14/14.2.1/ejemplo01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +52,18 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Vehiculo.executor&quot;: &quot;Run&quot;,
     &quot;Python.actividad_4.final.1.executor&quot;: &quot;Debug&quot;,
     &quot;Python.ansi.executor&quot;: &quot;Run&quot;,
     &quot;Python.cliente (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.cliente (2).executor&quot;: &quot;Run&quot;,
     &quot;Python.cliente.executor&quot;: &quot;Run&quot;,
+    &quot;Python.coche.executor&quot;: &quot;Run&quot;,
     &quot;Python.codigos_ansi.executor&quot;: &quot;Run&quot;,
     &quot;Python.ejemplio.1.1.executor&quot;: &quot;Run&quot;,
     &quot;Python.ejemplio.2.1.1.executor&quot;: &quot;Run&quot;,
     &quot;Python.ejemplio.2.1.1B.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo01.executor&quot;: &quot;Run&quot;,
     &quot;Python.ejemplo01_pyqt6.executor&quot;: &quot;Run&quot;,
     &quot;Python.ejemplo_3.1.1.executor&quot;: &quot;Debug&quot;,
     &quot;Python.ejemplo_3.1.3.executor&quot;: &quot;Debug&quot;,
@@ -87,14 +92,18 @@
     &quot;Python.ejercicio_7C (2).executor&quot;: &quot;Run&quot;,
     &quot;Python.ejercicio_7D (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.ejercicio_7D.executor&quot;: &quot;Run&quot;,
+    &quot;Python.empleado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gerente.executor&quot;: &quot;Run&quot;,
     &quot;Python.servidor (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.servidor (2).executor&quot;: &quot;Run&quot;,
     &quot;Python.servidor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vehiculo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vehiculo_coche (1).executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/javier/Desktop/CEPY/aprende-python-clase/ejemplos&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/javier/Desktop/CEPY/aprende-python-clase/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -105,19 +114,21 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\actividades\UT-08\actividad_8.8.1\ejercicio_8.8.1.2" />
+      <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\actividades\UT-08\actividad_8.8.1" />
+      <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\actividades\UT-08\actividad_8.8.1\ejercicio_8.8.1.1\v3" />
+      <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\actividades\UT-08\actividad_8.8.1\ejercicio_8.8.1.1" />
       <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\ejemplos" />
-      <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\ejemplos\UT-06\6.12" />
-      <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\actividades" />
-      <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\ejemplos\chats\chat01b_simple" />
-      <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\ejemplos\chats" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\actividades\UT-08\actividad_8.8.1\ejercicio_8.8.1.1\v2" />
+      <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\actividades\UT-08\actividad_8.8.1\ejercicio_8.8.1.1\v1" />
       <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\ejemplos\UT-06\6.12" />
       <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\actividades\UT-08\actividad_8.1.1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ejemplo01_pyqt6">
-    <configuration name="ejemplio.1.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ejemplo01">
+    <configuration name="ejemplo01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aprende-python-clase" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,12 +137,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejemplos/UT-06/6.12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejemplos/UT-14/14.2.1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejemplos/UT-06/6.12/ejemplio.1.1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejemplos/UT-14/14.2.1/ejemplo01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ejemplio.2.1.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="empleado" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aprende-python-clase" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,12 +160,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejemplos/UT-06/6.12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejemplos/UT-06/6.12/ejemplio.2.1.1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.2/empleado.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ejemplio.2.1.1B" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gerente" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aprende-python-clase" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,12 +183,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejemplos/UT-06/6.12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejemplos/UT-06/6.12/ejemplio.2.1.1B.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.2/gerente.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ejemplo01_pyqt6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="vehiculo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aprende-python-clase" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,12 +206,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejemplos/UT-14/14.1.1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.1/v3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejemplos/UT-14/14.1.1/ejemplo01_pyqt6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.1/v3/vehiculo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +220,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ejercicio_6.12.2.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="vehiculo_coche (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aprende-python-clase" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,12 +229,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/actividades/UT-06/actividad_6.12.2/ejercicio_6.12.2.1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.1/v2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/actividades/UT-06/actividad_6.12.2/ejercicio_6.12.2.1/ejercicio_6.12.2.1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.1/v2/vehiculo_coche.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ejemplo01_pyqt6" />
-        <item itemvalue="Python.ejercicio_6.12.2.1" />
-        <item itemvalue="Python.ejemplio.2.1.1B" />
-        <item itemvalue="Python.ejemplio.2.1.1" />
-        <item itemvalue="Python.ejemplio.1.1" />
+        <item itemvalue="Python.ejemplo01" />
+        <item itemvalue="Python.gerente" />
+        <item itemvalue="Python.empleado" />
+        <item itemvalue="Python.vehiculo_coche (1)" />
+        <item itemvalue="Python.vehiculo" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +287,8 @@
       <workItem from="1767894798664" duration="2697000" />
       <workItem from="1768240533651" duration="7702000" />
       <workItem from="1768326894073" duration="7520000" />
-      <workItem from="1768335113745" duration="752000" />
+      <workItem from="1768335113745" duration="763000" />
+      <workItem from="1768498467521" duration="5824000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios">
       <option name="closed" value="true" />
@@ -382,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768249619024</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ejercicios">
+      <option name="closed" value="true" />
+      <created>1768336141529</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1768336141529</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,8 +463,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_4.coverage" NAME="ejercicio_4 Coverage Results" MODIFIED="1760981027861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-03/actividad_3.3.1" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_1.coverage" NAME="ejercicio_1 Coverage Results" MODIFIED="1764010059258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/actividad_8.1.1" />
+    <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_4.coverage" NAME="ejercicio_4 Coverage Results" MODIFIED="1760981027861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-03/actividad_3.3.1" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_4__1_.coverage" NAME="ejercicio_4 (1) Coverage Results" MODIFIED="1764014138994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/actividad_8.1.1" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_3_1_1.coverage" NAME="ejemplo_3.1.1 Coverage Results" MODIFIED="1760034983953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_5_9C3.coverage" NAME="ejemplo_5.9C3 Coverage Results" MODIFIED="1765826474803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
@@ -453,6 +473,7 @@
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_7B__1_.coverage" NAME="ejercicio_7B (1) Coverage Results" MODIFIED="1764699927980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/actividad_8.1.1/ejercicio_7B" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ansi.coverage" NAME="ansi Coverage Results" MODIFIED="1760987194049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/pildoras" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_3_2_2.coverage" NAME="ejemplo_3.2.2 Coverage Results" MODIFIED="1760466419626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
+    <SUITE FILE_PATH="coverage/aprende_python_clase$empleado.coverage" NAME="empleado Coverage Results" MODIFIED="1768503701244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.2" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_2__1_.coverage" NAME="ejercicio_2 (1) Coverage Results" MODIFIED="1764094657886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/actividad_8.1.1" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_5_9C.coverage" NAME="ejemplo_5.9C Coverage Results" MODIFIED="1765825423996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplio_2_1_1.coverage" NAME="ejemplio.2.1.1 Coverage Results" MODIFIED="1768246086129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/UT-06/6.12" />
@@ -461,14 +482,17 @@
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_3.coverage" NAME="ejercicio_3 Coverage Results" MODIFIED="1760980302355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-03/actividad_3.3.1" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_3_1_3.coverage" NAME="ejemplo_3.1.3 Coverage Results" MODIFIED="1760035051692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_7C__1_.coverage" NAME="ejercicio_7C (1) Coverage Results" MODIFIED="1764619507362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/ejercicio_7C" />
+    <SUITE FILE_PATH="coverage/aprende_python_clase$vehiculo_coche__1_.coverage" NAME="vehiculo_coche (1) Coverage Results" MODIFIED="1768502900688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.1/v2" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_3_3_1B.coverage" NAME="ejemplo_3.3.1B Coverage Results" MODIFIED="1760636763681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$servidor__2_.coverage" NAME="servidor (2) Coverage Results" MODIFIED="1766086255721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/chats/chat01b_simple" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplio_1_1.coverage" NAME="ejemplio.1.1 Coverage Results" MODIFIED="1768245671458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/UT-06/6.12" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_5_8.coverage" NAME="ejemplo_5.8 Coverage Results" MODIFIED="1765822612080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
-    <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo01_pyqt6.coverage" NAME="ejemplo01_pyqt6 Coverage Results" MODIFIED="1768334990651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/UT-14/14.1.1" />
+    <SUITE FILE_PATH="coverage/aprende_python_clase$vehiculo.coverage" NAME="vehiculo Coverage Results" MODIFIED="1768501758984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.1/v3" />
+    <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo01_pyqt6.coverage" NAME="ejemplo01_pyqt6 Coverage Results" MODIFIED="1768498804763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/UT-14/14.1.1" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_3_3_1.coverage" NAME="ejemplo_3.3.1 Coverage Results" MODIFIED="1760636402159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_5_9B.coverage" NAME="ejemplo_5.9B Coverage Results" MODIFIED="1765825145960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplio_2_1_1B.coverage" NAME="ejemplio.2.1.1B Coverage Results" MODIFIED="1768246507880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/UT-06/6.12" />
+    <SUITE FILE_PATH="coverage/aprende_python_clase$gerente.coverage" NAME="gerente Coverage Results" MODIFIED="1768503720641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.2" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$servidor.coverage" NAME="servidor Coverage Results" MODIFIED="1765914462522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/chats/chat01_simple" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_7C__2_.coverage" NAME="ejercicio_7C (2) Coverage Results" MODIFIED="1764700035445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/actividad_8.1.1/ejercicio_7C" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_6_12_2_1.coverage" NAME="ejercicio_6.12.2.1 Coverage Results" MODIFIED="1768332223468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-06/actividad_6.12.2/ejercicio_6.12.2.1" />
@@ -476,12 +500,15 @@
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_7D.coverage" NAME="ejercicio_7D Coverage Results" MODIFIED="1765303352492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/actividad_8.1.1/ejercicio_7DD" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_2.coverage" NAME="ejercicio_2 Coverage Results" MODIFIED="1760982786562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-03/actividad_3.3.2" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_5_9C4.coverage" NAME="ejemplo_5.9C4 Coverage Results" MODIFIED="1765826567383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
+    <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo01.coverage" NAME="ejemplo01 Coverage Results" MODIFIED="1768505714517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/UT-14/14.2.1" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_5_9C2__1_.coverage" NAME="ejemplo_5.9C2 (1) Coverage Results" MODIFIED="1765826310049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$cliente__2_.coverage" NAME="cliente (2) Coverage Results" MODIFIED="1766086257922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/chats/chat01b_simple" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_5_9.coverage" NAME="ejemplo_5.9 Coverage Results" MODIFIED="1765824624205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$codigos_ansi.coverage" NAME="codigos_ansi Coverage Results" MODIFIED="1766083593391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/chats/chat01b_simple" />
+    <SUITE FILE_PATH="coverage/aprende_python_clase$coche.coverage" NAME="coche Coverage Results" MODIFIED="1768501734308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.1/v3" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$cliente.coverage" NAME="cliente Coverage Results" MODIFIED="1765914465454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/chats/chat01_simple" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_3_2_3.coverage" NAME="ejemplo_3.2.3 Coverage Results" MODIFIED="1760636389815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$servidor__1_.coverage" NAME="servidor (1) Coverage Results" MODIFIED="1765916826744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/chats/chat02" />
+    <SUITE FILE_PATH="coverage/aprende_python_clase$Vehiculo.coverage" NAME="Vehiculo Coverage Results" MODIFIED="1768501376814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.1" />
   </component>
 </project>
