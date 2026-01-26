@@ -1,0 +1,78 @@
+Añadimos estilos a los botones
+    Establecemos el estado de los botones a checkable
+        self.boton_nueva.setCheckable(True)
+        self.boton_listado.setCheckable(True)
+
+    Probamos
+    Ponemos inicialmente
+        self.boton_listado.setCheckable(True)
+    Probamos
+
+    Activamos y desactivamos los botones en las acciones
+        En Nueva
+            self.boton_nueva.setChecked(True)
+            self.boton_listado.setChecked(False)
+        En Listado
+            self.boton_nueva.setChecked(False)
+            self.boton_listado.setChecked(True)
+    Probamos
+    Creamos una funcion cerrar_app para el boton salir
+    Probamos
+
+    Vamos a simplificar el codigo creando clases para botones y labels (version b)
+        Creamos el archivo ui.py
+        Creamos las clases en ui.py
+        importamos el modulo en la app
+            from ui import BotonMenu, LabelItem
+            cambiamos para utilizar las nuevas clases
+
+    Añadimos el código para introducir la nueva entrada
+    self.edit_entrada = QLineEdit(panel_nueva)
+        self.edit_entrada.setGeometry(20, 60, 150, 30)
+        self.edit_entrada.setStyleSheet("background-color:#ffffff;")
+        boton_guardar = QPushButton("Guardar", panel_nueva)
+        boton_guardar.setGeometry(200, 60, 80, 30)
+        boton_guardar.setStyleSheet("""
+            QPushButton {
+                background-color: #ffffff;
+                color: #000000;
+                border: 1px solid #333;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            QPushButton:hover {
+                background-color: #dddddd;
+            }
+        """)
+        boton_guardar.clicked.connect(self.guardar)
+
+        ...
+        def guardar(self):
+            entrada = self.edit_entrada.text()
+            self.entradas.append(entrada)
+            print(self.entradas)
+            self.edit_entrada.clear()
+
+    Ejercicio, crear una clase EditItem y BotonAction
+
+    Completamos la opcion listado
+            self.lbl_salida= QLabel(panel_listado)
+            self.lbl_salida.setGeometry(20, 50, 570, 400)
+            self.lbl_salida.setStyleSheet("background-color:#ffff00; padding-left:10px;")
+            self.lbl_salida.setAlignment(Qt.AlignmentFlag.AlignTop)
+            ...
+            def listado_entradas(self):
+                self.panel_datos.setCurrentIndex(1)
+                self.boton_nueva.setChecked(False)
+                self.boton_listado.setChecked(True)
+                self.listar()
+            ...
+            def listar(self):
+                salida = '<span style="color:#ff0000;">Listado de entradas</span><br>'
+                for entrada in self.entradas:
+                   salida += entrada + "<br>"
+                self.lbl_salida.setText(salida)
+
+Creamos una copia. Version C para utilizar layouts
+
+    Cambiamos par que hays dos paneles en vertical
