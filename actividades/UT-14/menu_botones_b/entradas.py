@@ -1,6 +1,8 @@
 import sys
 
-from PyQt6.QtWidgets import QWidget, QApplication, QPushButton, QStackedWidget, QLabel
+from PyQt6.QtWidgets import QWidget, QApplication, QPushButton, QStackedWidget, QLabel, QLineEdit
+
+from ui import BotonMenu, LabelItem, EditItem
 
 
 class Entradas(QWidget):
@@ -24,10 +26,16 @@ class Entradas(QWidget):
         # Panel opción ueva entrada
         panel_nueva = QWidget(self.panel_datos)
         panel_nueva.setStyleSheet("background-color:#8B0000;")
-        label = QLabel("Entrada", panel_nueva)
+        label = LabelItem("Entrada", panel_nueva)
         label.move(20, 30)
-        label.setStyleSheet("font-weight:bold; color:#ffffff;")
-        #...
+
+        self.edit_entrada = EditItem(panel_nueva)
+        self.edit_entrada.setGeometry(20, 60, 150, 30)
+
+        boton_guardar = QPushButton("Guardar", panel_nueva)
+        boton_guardar.setGeometry(200, 60, 80, 30)
+        boton_guardar.clicked.connect(self.guardar)
+
 
         panel_listado = QWidget(self.panel_datos)
         panel_listado.setStyleSheet("background-color:#aa00aa;")
@@ -43,59 +51,17 @@ class Entradas(QWidget):
         panel_botones.setGeometry(0, 0, 600, 40)
         panel_botones.setStyleSheet("background-color:#FF0000;")
 
-        self.boton_nueva = QPushButton("Nueva", panel_botones)
+        self.boton_nueva = BotonMenu("Nueva", panel_botones)
         self.boton_nueva.setGeometry(0, 0, 80, 30)
-        self.boton_nueva.setCheckable(True)
         self.boton_nueva.setChecked(True)
-        self.boton_nueva.setStyleSheet("""
-                QPushButton {
-                    background-color: #cccccc;
-                    border: 1px solid #444;
-                    padding: 5px;
-                    border-radius: 5px;
-                }
-               QPushButton:checked  {
-                    background-color: #ffebcd;
-                    font-weight: bold;
-                    border-bottom: 2px solid #000000;
-                }
-        """)
         self.boton_nueva.clicked.connect(self.nueva_entrada)
 
-        self.boton_listado = QPushButton("Listado", panel_botones)
+        self.boton_listado = BotonMenu("Listado", panel_botones)
         self.boton_listado.setGeometry(100, 0, 80, 30)
-        self.boton_listado.setCheckable(True)
-        self.boton_listado.setStyleSheet("""
-                QPushButton {
-                    background-color: #cccccc;
-                    border: 1px solid #444;
-                    padding: 5px;
-                    border-radius: 5px;
-                }
-                QPushButton:checked  {
-                    background-color: #ffebcd;
-                    font-weight: bold;
-                    border-bottom: 2px solid #000000;
-                }
-        """)
         self.boton_listado.clicked.connect(self.listado_entradas)
 
-        self.boton_salir = QPushButton("Salir", panel_botones)
+        self.boton_salir = BotonMenu("Salir", panel_botones)
         self.boton_salir.setGeometry(200, 0, 80, 30)
-        self.boton_salir.setCheckable(True)
-        self.boton_salir.setStyleSheet("""
-                QPushButton {
-                    background-color: #cccccc;
-                    border: 1px solid #444;
-                    padding: 5px;
-                    border-radius: 5px;
-                }
-               QPushButton:checked  {
-                    background-color: #ffebcd;
-                    font-weight: bold;
-                    border-bottom: 2px solid #000000;
-                }
-                """)
         self.boton_salir.clicked.connect(self.cerrar_app)
 
 
@@ -111,6 +77,9 @@ class Entradas(QWidget):
 
     def cerrar_app(self):
         sys.exit()
+
+    def guardar(self):
+        pass
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
