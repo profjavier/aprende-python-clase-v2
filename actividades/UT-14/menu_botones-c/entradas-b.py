@@ -71,30 +71,79 @@ class Entradas(QWidget):
         panel_menu.setLayout(layout)
 
     def crear_widgets_entrada(self, panel_central):
-        # Creamos un panel contenedor
         panel_nuevo = QWidget()
 
-        # Creamos layout
-        layout = QFormLayout()
-        layout.setContentsMargins(20, 20, 20, 20)
-        layout.setSpacing(10)
-        panel_nuevo.setLayout(layout)
+        # Layout principal
+        main_layout = QVBoxLayout(panel_nuevo)
+        main_layout.setContentsMargins(20, 20, 20, 20)
+        main_layout.setSpacing(15)
 
-        # Label + Edit
+        # 🔹 Stretch superior → centra verticalmente
+        main_layout.addStretch(1)
+
+        # --- Fila centrada (Label + Edit) ---
+        center_row = QHBoxLayout()
+        center_row.setSpacing(10)
+
         label = LabelItem("Entrada")
         self.edit_entrada = EditItem()
-        layout.addRow(label, self.edit_entrada)
+        self.edit_entrada.setMinimumWidth(70)
+        self.edit_entrada.setMaximumWidth(150)
 
-        # Botón Guardar
+        # 🔹 Stretch izquierda
+        center_row.addStretch(1)
+        center_row.addWidget(label)
+        center_row.addWidget(self.edit_entrada)
+        # 🔹 Stretch derecha
+        center_row.addStretch(1)
+
+        main_layout.addLayout(center_row)
+
+
+        # 🔹 Stretch inferior → centra verticalmente
+        main_layout.addStretch(1)
+
+        # --- Botón abajo a la derecha ---
+        button_layout = QHBoxLayout()
+
         boton_guardar = BotonAction("Guardar")
+        boton_guardar.setMinimumWidth(70)
+        boton_guardar.setMaximumWidth(150)
         boton_guardar.clicked.connect(self.guardar)
-        layout.addRow(boton_guardar)
 
-        # Añadimos el panel al QStackedWidget
+        button_layout.addStretch(1)
+        button_layout.addWidget(boton_guardar)
+
+        main_layout.addLayout(button_layout)
+
         panel_central.addWidget(panel_nuevo)
-
-        # Guardamos referencia si queremos acceder después
         self.panel_nuevo = panel_nuevo
+
+    # def crear_widgets_entrada(self, panel_central):
+    #     # Creamos un panel contenedor
+    #     panel_nuevo = QWidget()
+    #
+    #     # Creamos layout
+    #     layout = QFormLayout()
+    #     layout.setContentsMargins(20, 20, 20, 20)
+    #     layout.setSpacing(10)
+    #     panel_nuevo.setLayout(layout)
+    #
+    #     # Label + Edit
+    #     label = LabelItem("Entrada")
+    #     self.edit_entrada = EditItem()
+    #     layout.addRow(label, self.edit_entrada)
+    #
+    #     # Botón Guardar
+    #     boton_guardar = BotonAction("Guardar")
+    #     boton_guardar.clicked.connect(self.guardar)
+    #     layout.addRow(boton_guardar)
+    #
+    #     # Añadimos el panel al QStackedWidget
+    #     panel_central.addWidget(panel_nuevo)
+    #
+    #     # Guardamos referencia si queremos acceder después
+    #     self.panel_nuevo = panel_nuevo
 
     def crear_widgets_listado(self, panel_central):
         # Creamos un panel contenedor
