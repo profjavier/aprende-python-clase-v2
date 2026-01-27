@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7afe0ce3-76ff-448e-a4c0-f4646645dff7" name="Changes" comment="Ejercicios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividades/UT-14/PROXIMOS PASOS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/actividades/UT-14/PROXIMOS PASOS.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +306,7 @@
       <workItem from="1769104386573" duration="4493000" />
       <workItem from="1769417359618" duration="7226000" />
       <workItem from="1769425004368" duration="7803000" />
-      <workItem from="1769532204684" duration="686000" />
+      <workItem from="1769532204684" duration="1769000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios">
       <option name="closed" value="true" />
@@ -461,7 +460,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769510883044</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Ejercicios">
+      <option name="closed" value="true" />
+      <created>1769532896717</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1769532896717</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
