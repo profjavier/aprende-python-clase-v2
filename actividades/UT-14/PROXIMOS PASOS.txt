@@ -1,31 +1,6 @@
-Añadimos estilos a los botones
-    Establecemos el estado de los botones a checkable
-        self.boton_nueva.setCheckable(True)
-        self.boton_listado.setCheckable(True)
 
-    Probamos
-    Ponemos inicialmente
-        self.boton_listado.setCheckable(True)
-    Probamos
-
-    Activamos y desactivamos los botones en las acciones
-        En Nueva
-            self.boton_nueva.setChecked(True)
-            self.boton_listado.setChecked(False)
-        En Listado
-            self.boton_nueva.setChecked(False)
-            self.boton_listado.setChecked(True)
-    Probamos
-    Creamos una funcion cerrar_app para el boton salir
-    Probamos
-
-    Vamos a simplificar el codigo creando clases para botones y labels (version b)
-        Creamos el archivo ui.py
-        Creamos las clases en ui.py
-        importamos el modulo en la app
-            from ui import BotonMenu, LabelItem
-            cambiamos para utilizar las nuevas clases
-
+Configuramos los estilos para hover en qlineEdit:hover
+Creamos BotonAction
     Añadimos el código para introducir la nueva entrada
     self.edit_entrada = QLineEdit(panel_nueva)
         self.edit_entrada.setGeometry(20, 60, 150, 30)
@@ -53,7 +28,6 @@ Añadimos estilos a los botones
             print(self.entradas)
             self.edit_entrada.clear()
 
-    Ejercicio, crear una clase EditItem y BotonAction
 
     Completamos la opcion listado
             self.lbl_salida= QLabel(panel_listado)
@@ -75,4 +49,4 @@ Añadimos estilos a los botones
 
 Creamos una copia. Version C para utilizar layouts
 
-    Cambiamos par que hays dos paneles en vertical
+    Cambiamos par que haya tres paneles en vertical
