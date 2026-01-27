@@ -1,8 +1,9 @@
 import sys
 
+from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import QWidget, QApplication, QPushButton, QStackedWidget, QLabel, QLineEdit
 
-from ui import BotonMenu, LabelItem, EditItem
+from ui import BotonMenu, LabelItem, EditItem, BotonAction
 
 
 class Entradas(QWidget):
@@ -29,18 +30,24 @@ class Entradas(QWidget):
         label = LabelItem("Entrada", panel_nueva)
         label.move(20, 30)
 
+
         self.edit_entrada = EditItem(panel_nueva)
         self.edit_entrada.setGeometry(20, 60, 150, 30)
 
-        boton_guardar = QPushButton("Guardar", panel_nueva)
+        boton_guardar = BotonAction("Guardar", panel_nueva)
         boton_guardar.setGeometry(200, 60, 80, 30)
         boton_guardar.clicked.connect(self.guardar)
-
 
         panel_listado = QWidget(self.panel_datos)
         panel_listado.setStyleSheet("background-color:#aa00aa;")
         label = QLabel("Listado", panel_listado)
+        label.setStyleSheet("color:#ffffff; font-size: 20px;")
         label.move(20, 20)
+
+        self.lbl_salida = QLabel(panel_listado)
+        self.lbl_salida.setGeometry(20, 50, 570, 400)
+        self.lbl_salida.setStyleSheet("background-color:#F5F5DC; padding:5 10 5 10;font-size: 16px;")
+        self.lbl_salida.setAlignment(Qt.AlignmentFlag.AlignTop)
 
         self.panel_datos.addWidget(panel_nueva)
         self.panel_datos.addWidget(panel_listado)
@@ -74,12 +81,23 @@ class Entradas(QWidget):
         self.panel_datos.setCurrentIndex(1)
         self.boton_nueva.setChecked(False)
         self.boton_listado.setChecked(True)
+        self.listar()
+
 
     def cerrar_app(self):
         sys.exit()
 
     def guardar(self):
-        pass
+        entrada = self.edit_entrada.text()
+        self.entradas.append(entrada)
+        print(self.entradas)
+        self.edit_entrada.clear()
+
+    def listar(self):
+        salida = '<span style="color:#ff0000;">Listado de entradas</span><br>'
+        for entrada in self.entradas:
+            salida += entrada + "<br>"
+        self.lbl_salida.setText(salida)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

@@ -1,0 +1,81 @@
+Ejercicio 1  (ejercicio_1.txt). Crear una base de datos llamada "MiBaseDeDatos". En esta base de datos hay que crear dos tablas tb_usuarios y tb_usuarios_tipos. La tabla tb_usuarios tendrá la información de los usuarios, mientras que la tabla tb_usuarios_tipos tendrá los tipos de usuarios posibles en nuestra aplicación (por ejemplo "administrador", "profesor", "alumno", ...)
+
+    Los campos de la tabla tb_usuarios_tipos serán el identificador (primary key) y el nombre del tipo de usuario.
+    Los campos mínimos para la tabla de usuarios serán el identificador (primary key), el identificador del tipo de usuario (clave foránea o foreing key), el nombre, el email y una contraseña. A parte de estos también tenéis que añadir los campos que consideréis oportunos. Tened en cuenta el tipo de campo que asignéis a cada uno en función del tipo de datos que va a almacenar.
+
+Entregar un fichero de texto con las consultas sql utilizadas.
+
+Ejercicio 2  (ejercicio_2.txt). Añadir dos filas a la tabla tb_usuarios_tipos para definir dos tipos de usuarios : "administrador" y "cliente". A continuación, añadir 5 usuarios a la tabla tb_usuarios, uno de tipo "administrador" y los otros de tipo "cliente".
+
+Entregar un fichero de texto con las consultas sql utilizadas.
+
+Ejercicio 3 (ejercicio_3.py). Crear un script que se conecte a la base de datos que habéis generado y muestre un listado de los clientes indicando el nombre, el email y el tipo de cliente. Debería quedar algo así:
+
+    Paco Rodríguez - pacorodriguez@email.com - administrador
+    Jose Manuel Gómez - jmg@email.com - cliente
+    Juan Hernández - juanher@email.com - cliente
+    ...
+
+Tiene que aparecer primero el administrador y a continuación los clientes ordenados alfabéticamente (por apellido).
+
+Ejercicio 4 (ejercicio_4.py). Crear un script para insertar un usuario. Lo primero que tiene que hacer es mostrarte los tipos de usuarios que están definidos en la base de datos para que elijas el tipo de usuario adecuado (nuestro script guardará el identificador (primary key) correspondiente del tipo de usuario). A continuación te irá pidiendo los datos del usuario: nombre, email , ...
+
+Una vez tenga todos los los datos del usuario y el primary key del tipo de usuario, añadiremos el nuevo usuario a la base de datos.
+
+Ejercicio 5 (ejercicio_5.py). Crear un script para modificar un usuario (sin modificar el tipo de usuario). El script te pedirá el identificador (primary key) del usuario. Hará una consulta a la base de datos para obtener los datos de dicho usuario y a continuación te irá mostrando los datos de los diferentes campos para que puedas modificarlo.
+
+Por ejemplo, supongamos que eliges el identificador 2, que es el de "Juan Hernández". La aplicación te mostrará:
+
+  Nombre [Juan]: 
+
+Si pulsas "enter" el script entiende que el nombre no se modifica, pero si escribes otro nombre diferente, el script almacenará ese valor para después modificarlo en la base de datos.
+
+Después hará lo mismo con los apellidos, el email, ...
+
+Una vez tenga todos los los datos del usuario, modificará el usuario en la base de datos.
+
+OPCIONAL: Modificar también el tipo de usuario.
+
+Ejercicio 6 (ejercicio_6.py). Unir todos los script anteriores para crear un script que te permita ver el listado de usuarios, añadir usuarios, modificar usuarios y eliminar usuarios.
+
+Hay que crear al menos estas funciones:
+
+    listarUsuarios: no recibe ningún parámetro y muestra el listado de usuarios igual que en el ejercicio 3, pero añadiendo al principio (entre paréntesis) el identificador de cada usuario.
+    addUsuario: recibe coma parámetro un diccionario con los datos del nuevo usuario. OPCIONAL: comprobar que el email del nuevo usuario no existe, y en tal caso devolver un error.
+    modUsuario: recibe dos parámetros, el identificador del usuario a modificar y un diccionario con los nuevos datos. OPCIONAL: comprobar que el nuevo email no coincide con el de otro usuario, y en tal caso devolver un error.
+    delUsuario: recibe como parámetro el identificador del usuario a eliminar.
+    mostrarMenu: no recibe ningún parámetro. Muestra en pantalla el menú de nuestra aplicación.
+
+Nada más ejecutar el script mostrará el menú:
+
+    Listado de usuarios
+    Añadir usuario
+    Modificar usuario
+    Eliminar usuario
+    Salir
+
+      Elige una opción: ...
+
+En función de la opción elegida se hará una acción u otra. Al final de la acción elegida se volverá siempre al menú para que el usuario pueda elegir la siguiente acción a ejecutar.
+
+OPCIONAL. Añadir más opciones a la aplicación para poder gestionar también los tipos de usuarios.
+
+Ejercicio 7 (ejercicio_7.py). OPCIONAL. El objetivo de esta actividad es crear un programa que permita hacer login, es decir:
+
+    Nada más empezar el programa te mostrará dos opciones: Acceder o Registrarte.
+    Si eliges la opción "Acceder", te preguntará tu usuario y contraseña.
+    Si eliges la opción "Registrarte", te preguntará tus datos: email, usuario, contraseña, nombre, apellidos, teléfono y edad. Si no existe ese "usuario", y todos los datos están rellenos, se guardará en la base de datos el usuario y el programa volverá a la pantalla de inicio. En caso contrario, mostrará el error y empezará el proceso de nuevo.
+
+Cuando el usuario accede correctamente, le aparecerá un menú con las opciones: "Ver mis datos", "Modificar mis datos" y "Salir". Cada una con su funcionalidad.
+Al modificar los datos, hay que tener en cuenta que si se modifica el nombre de usuario, el nuevo nombre de usuario no puede coincidir con uno que ya exista en la bbdd.
+
+Si a la hora de registrarte, da un error, se puede mirar la opción de que los datos introducidos anteriormente, salgan por defecto. Por ejemplo, si ha introducido todos los datos bien menos la edad, el proceso empieza desde el principio, pero en vez de mostrar:
+  Indica tu nombre:
+Puede poner:
+  Indica tu nombre ["Paco"]:
+De tal forma que "Paco" es el nombre que escribió anteriormente y en el caso de que el usuario le de directamente al enter, se coja ese dato.
+
+Al finalizar la actividad deberá subir el directorio comprimido en zip
+
+
+
