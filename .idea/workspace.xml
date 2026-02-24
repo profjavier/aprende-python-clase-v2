@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7afe0ce3-76ff-448e-a4c0-f4646645dff7" name="Changes" comment="Ejercicios">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BD_Javier/aprende_bd01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BD_Javier/aprende_bd02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BD_Javier/aprende_bd03.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,91 +46,95 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Vehiculo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.actividad_4.final.1.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ansi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.aprende_layouts01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cliente (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.cliente (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.cliente.executor&quot;: &quot;Run&quot;,
-    &quot;Python.coche.executor&quot;: &quot;Run&quot;,
-    &quot;Python.codigos_ansi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.contador.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplio.1.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplio.2.1.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplio.2.1.1B.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo01.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ejemplo01_pyqt6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo_3.1.1.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ejemplo_3.1.3.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ejemplo_3.2.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo_3.2.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo_3.3.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo_3.3.1B.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo_5.8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo_5.9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo_5.9B.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo_5.9C.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo_5.9C2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo_5.9C3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejemplo_5.9C4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_4 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_6.12.1.2_PYQT6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_6.12.1.2_PYQT6_B.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_6.12.1.2_PYQT6_C.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_6.12.1.2_PYQT6_D.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_6.12.1.8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_6.12.2.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_7B (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_7B.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_7C (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_7C (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_7D (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.ejercicio_7D.executor&quot;: &quot;Run&quot;,
-    &quot;Python.empleado.executor&quot;: &quot;Run&quot;,
-    &quot;Python.entradas (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.entradas (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.entradas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gerente.executor&quot;: &quot;Run&quot;,
-    &quot;Python.grid01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.grid01B (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.grid01B.executor&quot;: &quot;Run&quot;,
-    &quot;Python.servidor (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.servidor (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.servidor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.suma (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.suma.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tienda_db.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vehiculo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vehiculo_coche (1).executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/javier/Desktop/CEPY/aprende-python-clase/ejemplos/UT-14/grid_dinamico/v2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Vehiculo.executor": "Run",
+    "Python.actividad_4.final.1.executor": "Debug",
+    "Python.ansi.executor": "Run",
+    "Python.aprende_bd01.executor": "Run",
+    "Python.aprende_bd02.executor": "Run",
+    "Python.aprende_bd03.executor": "Run",
+    "Python.aprende_layouts01.executor": "Run",
+    "Python.cliente (1).executor": "Run",
+    "Python.cliente (2).executor": "Run",
+    "Python.cliente.executor": "Run",
+    "Python.coche.executor": "Run",
+    "Python.codigos_ansi.executor": "Run",
+    "Python.contador.executor": "Run",
+    "Python.ejemplio.1.1.executor": "Run",
+    "Python.ejemplio.2.1.1.executor": "Run",
+    "Python.ejemplio.2.1.1B.executor": "Run",
+    "Python.ejemplo01.executor": "Debug",
+    "Python.ejemplo01_pyqt6.executor": "Run",
+    "Python.ejemplo_3.1.1.executor": "Debug",
+    "Python.ejemplo_3.1.3.executor": "Debug",
+    "Python.ejemplo_3.2.2.executor": "Run",
+    "Python.ejemplo_3.2.3.executor": "Run",
+    "Python.ejemplo_3.3.1.executor": "Run",
+    "Python.ejemplo_3.3.1B.executor": "Run",
+    "Python.ejemplo_5.8.executor": "Run",
+    "Python.ejemplo_5.9.executor": "Run",
+    "Python.ejemplo_5.9B.executor": "Run",
+    "Python.ejemplo_5.9C.executor": "Run",
+    "Python.ejemplo_5.9C2 (1).executor": "Run",
+    "Python.ejemplo_5.9C3.executor": "Run",
+    "Python.ejemplo_5.9C4.executor": "Run",
+    "Python.ejercicio_1.executor": "Run",
+    "Python.ejercicio_2 (1).executor": "Run",
+    "Python.ejercicio_2.executor": "Run",
+    "Python.ejercicio_3.executor": "Run",
+    "Python.ejercicio_4 (1).executor": "Run",
+    "Python.ejercicio_4.executor": "Run",
+    "Python.ejercicio_5.executor": "Run",
+    "Python.ejercicio_6.12.1.2_PYQT6.executor": "Run",
+    "Python.ejercicio_6.12.1.2_PYQT6_B.executor": "Run",
+    "Python.ejercicio_6.12.1.2_PYQT6_C.executor": "Run",
+    "Python.ejercicio_6.12.1.2_PYQT6_D.executor": "Run",
+    "Python.ejercicio_6.12.1.8.executor": "Run",
+    "Python.ejercicio_6.12.2.1.executor": "Run",
+    "Python.ejercicio_7B (1).executor": "Run",
+    "Python.ejercicio_7B.executor": "Run",
+    "Python.ejercicio_7C (1).executor": "Run",
+    "Python.ejercicio_7C (2).executor": "Run",
+    "Python.ejercicio_7D (1).executor": "Run",
+    "Python.ejercicio_7D.executor": "Run",
+    "Python.empleado.executor": "Run",
+    "Python.entradas (1).executor": "Run",
+    "Python.entradas (2).executor": "Run",
+    "Python.entradas.executor": "Run",
+    "Python.gerente.executor": "Run",
+    "Python.grid01.executor": "Run",
+    "Python.grid01B (1).executor": "Run",
+    "Python.grid01B.executor": "Run",
+    "Python.servidor (1).executor": "Run",
+    "Python.servidor (2).executor": "Run",
+    "Python.servidor.executor": "Run",
+    "Python.suma (1).executor": "Run",
+    "Python.suma.executor": "Run",
+    "Python.tienda_db.executor": "Run",
+    "Python.vehiculo.executor": "Run",
+    "Python.vehiculo_coche (1).executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/javier/Desktop/CEPY/aprende-python-clase/BD/BD_Javier",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\BD\BD_Javier" />
       <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\ejemplos\UT-14\grid_dinamico\v2" />
       <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\ejemplos\UT-14\grid_dinamico\v1" />
       <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\actividades\UT-14" />
-      <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\BD\BD_Javier" />
       <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\BD\BD_Enrique" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -137,8 +145,8 @@
       <recent name="C:\Users\javier\Desktop\CEPY\aprende-python-clase\actividades\UT-08\actividad_8.1.1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.grid01B (1)">
-    <configuration name="aprende_layouts01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.aprende_bd03">
+    <configuration name="aprende_bd01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aprende-python-clase" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,12 +155,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/actividades/UT-14/menu_botones_c_layouts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BD/BD_Javier" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/actividades/UT-14/menu_botones_c_layouts/aprende_layouts01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BD/BD_Javier/aprende_bd01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="entradas (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="aprende_bd02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aprende-python-clase" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,12 +178,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/actividades/UT-14/menu_botones_c_layouts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BD/BD_Javier" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/actividades/UT-14/menu_botones_c_layouts/entradas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BD/BD_Javier/aprende_bd02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +192,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="grid01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="aprende_bd03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aprende-python-clase" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,12 +201,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejemplos/UT-14/grid_dinamico/v1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BD/BD_Javier" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejemplos/UT-14/grid_dinamico/v1/grid01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BD/BD_Javier/aprende_bd03.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aprende_bd03" />
+        <item itemvalue="Python.aprende_bd02" />
+        <item itemvalue="Python.aprende_bd01" />
         <item itemvalue="Python.grid01B (1)" />
         <item itemvalue="Python.grid01B" />
-        <item itemvalue="Python.grid01" />
-        <item itemvalue="Python.entradas (2)" />
-        <item itemvalue="Python.aprende_layouts01" />
       </list>
     </recent_temporary>
   </component>
@@ -306,6 +314,8 @@
       <workItem from="1770140891342" duration="6057000" />
       <workItem from="1770314559841" duration="1225000" />
       <workItem from="1770660263258" duration="23000" />
+      <workItem from="1770668033453" duration="12000" />
+      <workItem from="1771956154467" duration="7351000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios">
       <option name="closed" value="true" />
@@ -467,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770320513531</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Ejercicios">
+      <option name="closed" value="true" />
+      <created>1770668043827</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1770668043827</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,8 +552,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_6_12_1_8.coverage" NAME="ejercicio_6.12.1.8 Coverage Results" MODIFIED="1768852648146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-06/actividad_6.12.1/actividad_6.12.1/ejercicio_6.12.1.8" />
-    <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_4.coverage" NAME="ejercicio_4 Coverage Results" MODIFIED="1760981027861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-03/actividad_3.3.1" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_1.coverage" NAME="ejercicio_1 Coverage Results" MODIFIED="1764010059258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/actividad_8.1.1" />
+    <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_4.coverage" NAME="ejercicio_4 Coverage Results" MODIFIED="1760981027861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-03/actividad_3.3.1" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_4__1_.coverage" NAME="ejercicio_4 (1) Coverage Results" MODIFIED="1764014138994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/actividad_8.1.1" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_3_1_1.coverage" NAME="ejemplo_3.1.1 Coverage Results" MODIFIED="1760034983953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_5_9C3.coverage" NAME="ejemplo_5.9C3 Coverage Results" MODIFIED="1765826474803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
@@ -549,6 +567,7 @@
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplio_2_1_1.coverage" NAME="ejemplio.2.1.1 Coverage Results" MODIFIED="1768246086129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/UT-06/6.12" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_7B.coverage" NAME="ejercicio_7B Coverage Results" MODIFIED="1764615744032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/ejercicio_7B" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_7C__1_.coverage" NAME="ejercicio_7C (1) Coverage Results" MODIFIED="1764619507362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/ejercicio_7C" />
+    <SUITE FILE_PATH="coverage/aprende_python_clase$aprende_bd01.coverage" NAME="aprende_bd01 Coverage Results" MODIFIED="1771961757431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BD/BD_Javier" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_3_3_1B.coverage" NAME="ejemplo_3.3.1B Coverage Results" MODIFIED="1760636763681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$servidor__2_.coverage" NAME="servidor (2) Coverage Results" MODIFIED="1766086255721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/chats/chat01b_simple" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplio_1_1.coverage" NAME="ejemplio.1.1 Coverage Results" MODIFIED="1768245671458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/UT-06/6.12" />
@@ -587,6 +606,7 @@
     <SUITE FILE_PATH="coverage/aprende_python_clase$suma__1_.coverage" NAME="suma (1) Coverage Results" MODIFIED="1769107688201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-14/actividad_14.2.1/ejercicio_3" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_3_3_1.coverage" NAME="ejemplo_3.3.1 Coverage Results" MODIFIED="1760636402159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplio_2_1_1B.coverage" NAME="ejemplio.2.1.1B Coverage Results" MODIFIED="1768246507880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/UT-06/6.12" />
+    <SUITE FILE_PATH="coverage/aprende_python_clase$aprende_bd03.coverage" NAME="aprende_bd03 Coverage Results" MODIFIED="1771964610885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BD/BD_Javier" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_6_12_2_1.coverage" NAME="ejercicio_6.12.2.1 Coverage Results" MODIFIED="1768332223468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-06/actividad_6.12.2/ejercicio_6.12.2.1" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejercicio_5.coverage" NAME="ejercicio_5 Coverage Results" MODIFIED="1760462314595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-03/actividad_3.1" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$ejemplo_5_9C4.coverage" NAME="ejemplo_5.9C4 Coverage Results" MODIFIED="1765826567383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos" />
@@ -595,6 +615,7 @@
     <SUITE FILE_PATH="coverage/aprende_python_clase$entradas__1_.coverage" NAME="entradas (1) Coverage Results" MODIFIED="1769539716903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-14/menu_botones_b" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$suma.coverage" NAME="suma Coverage Results" MODIFIED="1769106824106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-14/actividad_14.2.1/ejercicio_2" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$coche.coverage" NAME="coche Coverage Results" MODIFIED="1768501734308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/actividades/UT-08/actividad_8.8.1/ejercicio_8.8.1.1/v3" />
+    <SUITE FILE_PATH="coverage/aprende_python_clase$aprende_bd02.coverage" NAME="aprende_bd02 Coverage Results" MODIFIED="1771963018772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BD/BD_Javier" />
     <SUITE FILE_PATH="coverage/aprende_python_clase$cliente.coverage" NAME="cliente Coverage Results" MODIFIED="1765914465454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ejemplos/chats/chat01_simple" />
   </component>
 </project>
