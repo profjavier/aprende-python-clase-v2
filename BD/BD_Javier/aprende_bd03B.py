@@ -2,10 +2,14 @@ import sqlite3
 
 '''
 DEVUELVE TUPLAS 
+UTILIZA CONSTANTE SELECT 
 '''
 
 class LibroDB:
-    def __init__(self, db_name="libros_v3.db"):
+
+    SELECT = "SELECT id, isbn, titulo, autor, editorial, fecha_publicacion, descripcion FROM libros"
+
+    def __init__(self, db_name="libros_v3B.db"):
         self.conn = sqlite3.connect(db_name)
         self.cursor = self.conn.cursor()
         self._crear_tablas()
@@ -73,26 +77,26 @@ class LibroDB:
             return -1
 
     def get_libro(self, id:int) -> tuple:
-        sql = "SELECT id, isbn, titulo, autor, editorial, fecha_publicacion, descripcion FROM libros WHERE id = ?"
+        sql = LibroDB.SELECT + " WHERE id = ?"
         self.cursor.execute(sql, (id,))
-        libros = self.cursor.fetchall()
-        return libros
+        libro = self.cursor.fetchone()
+        return libro
 
     def get_all_libros(self) -> list:
-        sql = "SELECT id, isbn, titulo, autor, editorial, fecha_publicacion, descripcion FROM libros"
+        sql = LibroDB.SELECT
         self.cursor.execute(sql)
         libros = self.cursor.fetchall()
         return libros
 
     def get_by_isbn(self, isbn: str) -> tuple:
-        sql = "SELECT id, isbn, titulo, autor, editorial, fecha_publicacion, descripcion FROM libros WHERE isbn = ?"
+        sql = LibroDB.SELECT + " WHERE isbn = ?"
         self.cursor.execute(sql, (isbn,))
         libros = self.cursor.fetchall()
         return libros
 
-    def update_by_isbn(self, isbn:str) -> int:
+    def update_by_isbn(self, isbn:str, libro: dict) -> int:
         try:
-            sql = "UPDATE libros SET isbn = ?, titulo=?, autor=?, editorial, fecha_publicacion=?, descripcion=? WHERE isbn = ?"
+            sql = "UPDATE libros SET isbn = ?, titulo=?, autor=?, editorial=?, fecha_publicacion=?, descripcion=? WHERE isbn = ?"
             self.cursor.execute(sql,(libro['isbn'], libro['titulo'], libro['autor'], libro['editorial'], libro['fecha_publicacion'],isbn))
             self.conn.commit()
             return self.cursor.rowcount
@@ -109,7 +113,7 @@ class LibroDB:
             return False
 
     def get_filter_autor(self, autor:str) -> list:
-        sql = "SELECT id, isbn, titulo, autor, editorial, fecha_publicacion, descripcion FROM libros WHERE autor = ?"
+        sql = LibroDB.SELECT + " WHERE autor = ?"
         self.cursor.execute(sql, (autor,))
         libros = self.cursor.fetchall()
         return libros
