@@ -78,6 +78,7 @@ class LibroDB:
 
     def get_libro(self, id:int) -> tuple:
         sql = LibroDB.SELECT + " WHERE id = ?"
+        #sql = self.SELECT + " WHERE id = ?"
         self.cursor.execute(sql, (id,))
         libro = self.cursor.fetchone()
         return libro
