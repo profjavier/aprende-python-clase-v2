@@ -1,3 +1,6 @@
 2026-03-05 20:35:05,223 [DEBUG   ] [APP] Aplicación iniciada
 2026-03-05 20:35:05,224 [INFO    ] [root] Conexión con la BD realizada con exito.
 2026-03-05 20:35:05,225 [ERROR   ] [LibroDB] UNIQUE constraint failed: libros.isbn
+2026-03-11 09:38:39,523 [DEBUG   ] [APP] Aplicación iniciada
+2026-03-11 09:38:39,524 [INFO    ] [root] Conexión con la BD realizada con exito.
+2026-03-11 09:38:39,524 [ERROR   ] [LibroDB] UNIQUE constraint failed: libros.isbn

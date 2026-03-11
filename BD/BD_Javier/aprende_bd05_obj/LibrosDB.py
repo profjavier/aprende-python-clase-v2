@@ -1,7 +1,7 @@
 import sqlite3
 import logging
 
-from Libro import Libro
+from libro import Libro
 
 
 class LibrosDB:
