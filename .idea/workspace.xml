@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7afe0ce3-76ff-448e-a4c0-f4646645dff7" name="Changes" comment="Ejercicios">
-      <change beforePath="$PROJECT_DIR$/.idea/aprende-python-clase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aprende-python-clase.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BD/BD_Javier/aprende_bd05_obj/Libro.py" beforeDir="false" afterPath="$PROJECT_DIR$/BD/BD_Javier/aprende_bd05_obj/libro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BD/BD_Javier/aprende_bd05_obj/LibrosDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/BD/BD_Javier/aprende_bd05_obj/LibrosDB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BD/BD_Javier/aprende_bd05_obj/errores.log" beforeDir="false" afterPath="$PROJECT_DIR$/BD/BD_Javier/aprende_bd05_obj/errores.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="7afe0ce3-76ff-448e-a4c0-f4646645dff7" name="Changes" comment="Ejercicios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,84 +41,84 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Vehiculo.executor": "Run",
-    "Python.actividad_4.final.1.executor": "Debug",
-    "Python.ansi.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.aprende_bd04_dict.executor": "Run",
-    "Python.aprende_layouts01.executor": "Run",
-    "Python.cliente (1).executor": "Run",
-    "Python.cliente (2).executor": "Run",
-    "Python.cliente.executor": "Run",
-    "Python.coche.executor": "Run",
-    "Python.codigos_ansi.executor": "Run",
-    "Python.contador.executor": "Run",
-    "Python.ejemplio.1.1.executor": "Run",
-    "Python.ejemplio.2.1.1.executor": "Run",
-    "Python.ejemplio.2.1.1B.executor": "Run",
-    "Python.ejemplo01.executor": "Debug",
-    "Python.ejemplo01_pyqt6.executor": "Run",
-    "Python.ejemplo_3.1.1.executor": "Debug",
-    "Python.ejemplo_3.1.3.executor": "Debug",
-    "Python.ejemplo_3.2.2.executor": "Run",
-    "Python.ejemplo_3.2.3.executor": "Run",
-    "Python.ejemplo_3.3.1.executor": "Run",
-    "Python.ejemplo_3.3.1B.executor": "Run",
-    "Python.ejemplo_5.8.executor": "Run",
-    "Python.ejemplo_5.9.executor": "Run",
-    "Python.ejemplo_5.9B.executor": "Run",
-    "Python.ejemplo_5.9C.executor": "Run",
-    "Python.ejemplo_5.9C2 (1).executor": "Run",
-    "Python.ejemplo_5.9C3.executor": "Run",
-    "Python.ejemplo_5.9C4.executor": "Run",
-    "Python.ejercicio_1.executor": "Run",
-    "Python.ejercicio_2 (1).executor": "Run",
-    "Python.ejercicio_2.executor": "Run",
-    "Python.ejercicio_3.executor": "Run",
-    "Python.ejercicio_4 (1).executor": "Run",
-    "Python.ejercicio_4.executor": "Run",
-    "Python.ejercicio_5.executor": "Run",
-    "Python.ejercicio_6.12.1.2_PYQT6.executor": "Run",
-    "Python.ejercicio_6.12.1.2_PYQT6_B.executor": "Run",
-    "Python.ejercicio_6.12.1.2_PYQT6_C.executor": "Run",
-    "Python.ejercicio_6.12.1.2_PYQT6_D.executor": "Run",
-    "Python.ejercicio_6.12.1.8.executor": "Run",
-    "Python.ejercicio_6.12.2.1.executor": "Run",
-    "Python.ejercicio_7B (1).executor": "Run",
-    "Python.ejercicio_7B.executor": "Run",
-    "Python.ejercicio_7C (1).executor": "Run",
-    "Python.ejercicio_7C (2).executor": "Run",
-    "Python.ejercicio_7D (1).executor": "Run",
-    "Python.ejercicio_7D.executor": "Run",
-    "Python.empleado.executor": "Run",
-    "Python.entradas (1).executor": "Run",
-    "Python.entradas (2).executor": "Run",
-    "Python.entradas.executor": "Run",
-    "Python.gerente.executor": "Run",
-    "Python.servidor (1).executor": "Run",
-    "Python.servidor (2).executor": "Run",
-    "Python.servidor.executor": "Run",
-    "Python.suma (1).executor": "Run",
-    "Python.suma.executor": "Run",
-    "Python.tienda_db.executor": "Run",
-    "Python.vehiculo.executor": "Run",
-    "Python.vehiculo_coche (1).executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/javier/PycharmProjects/aprende-python-clase-v2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Vehiculo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.actividad_4.final.1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ansi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aprende_bd04_dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aprende_layouts01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cliente (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.cliente (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.cliente.executor&quot;: &quot;Run&quot;,
+    &quot;Python.coche.executor&quot;: &quot;Run&quot;,
+    &quot;Python.codigos_ansi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.contador.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplio.1.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplio.2.1.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplio.2.1.1B.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo01.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ejemplo01_pyqt6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_3.1.1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ejemplo_3.1.3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ejemplo_3.2.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_3.2.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_3.3.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_3.3.1B.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_5.8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_5.9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_5.9B.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_5.9C.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_5.9C2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_5.9C3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_5.9C4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_4 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_6.12.1.2_PYQT6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_6.12.1.2_PYQT6_B.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_6.12.1.2_PYQT6_C.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_6.12.1.2_PYQT6_D.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_6.12.1.8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_6.12.2.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_7B (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_7B.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_7C (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_7C (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_7D (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_7D.executor&quot;: &quot;Run&quot;,
+    &quot;Python.empleado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.entradas (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.entradas (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.entradas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gerente.executor&quot;: &quot;Run&quot;,
+    &quot;Python.servidor (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.servidor (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.servidor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.suma (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.suma.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tienda_db.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vehiculo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vehiculo_coche (1).executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/javier/PycharmProjects/aprende-python-clase-v2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\javier\PycharmProjects\aprende-python-clase-v2" />
@@ -311,7 +304,7 @@
       <workItem from="1770222673894" duration="611000" />
       <workItem from="1772728800235" duration="15000" />
       <workItem from="1772786617966" duration="454000" />
-      <workItem from="1773218108340" duration="1067000" />
+      <workItem from="1773218108340" duration="1082000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios">
       <option name="closed" value="true" />
@@ -457,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772728809144</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Ejercicios">
+      <option name="closed" value="true" />
+      <created>1773247523544</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1773247523544</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
